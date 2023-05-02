@@ -24,6 +24,7 @@
         // $upper_key = strtoupper($key);
         // $upper_keys[] = $upper_key;
     }
-
+    echo "<pre>";
     print_r($newArray);
+
 ?>
