@@ -18,5 +18,12 @@ $arr = array(
     )
     );
 
+$last_names = array(); // initialize an empty array
+
+foreach ($arr as $value) {
+    $last_names[] = $value['last_name']; // add last name to the array
+}
+echo "<pre>";
+print_r($last_names); // print the array of last names
 
 ?>
