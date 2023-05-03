@@ -15,9 +15,7 @@
         // echo "demo";
         for ($i = 0; $i < strlen($key); $i++) {
             $char = substr($key, $i, 1); // ("Peter",0,1) // return P
-            
-                $char = strtoupper($char);
-            
+            $char = strtoupper($char);
             $newKey .= $char;
         }
         $newArray[$newKey] = $value;
