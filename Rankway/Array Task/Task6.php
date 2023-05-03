@@ -37,6 +37,7 @@
     if (count($subArray) > 0) {
         array_push($newArray, $subArray);
     }
+    
     echo "<pre>";
     print_r($newArray);
 
