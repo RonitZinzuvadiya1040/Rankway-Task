@@ -5,7 +5,7 @@
     A: lower and upper using function;
 -->
 
-<!-- Methos-1: lower to upper Without function -->
+<!-- Method-1: lower to upper Without function -->
 
 <?php
 
@@ -30,7 +30,7 @@
     
 ?>
 
-<!-- Methos-2: upper to lower Without function -->
+<!-- Method-2: upper to lower Without function -->
 
 <?php
 
@@ -55,7 +55,7 @@
     
 ?>
 
-<!-- Methos-3: using function -->
+<!-- Method-3: using function -->
 
 <?php    
     
