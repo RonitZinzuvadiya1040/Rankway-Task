@@ -15,10 +15,11 @@
     
     for($x = 0; $x < $arrlength; $x++) {
         echo "<pre>";
-        echo "$myArray[$x], ";
+        //echo "$myArray[$x], ";
         //echo "<br>";
 	}
-	echo "<br><br>";
+    
+	print_r($myArray);
 
 ?>
 
@@ -32,8 +33,10 @@
     
     for($x = 0; $x < $arrlength; $x++) {
         echo "<pre>";
-        echo "$myArray[$x], ";
+        //echo "$myArray[$x], ";
         //echo "<br>";
 	}
+
+    print_r($myArray);
     
 ?>  
