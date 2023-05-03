@@ -15,7 +15,7 @@
         // echo "$key";
         for ($i = 0; $i < strlen($key); $i++) {
             $char = substr($key, $i, 1); // ("Peter",0,1) // return p
-            $char = strtolower($char);
+            $char = strtolower($char); // convert string in lower case
             $newKey .= $char;
         }
         $newArray[$newKey] = $value;
