@@ -13,7 +13,7 @@
         $upper_keys[] = strtoupper($key);
         //$upper_keys[] = $upper_key;
     }
-
+    echo "<pre>";
     print_r($upper_keys);
 
 ?>
