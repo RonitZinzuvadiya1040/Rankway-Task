@@ -7,37 +7,36 @@
 
 <?php    
     
-	$myArray = array("35","37","43","30","24","47","27");
-	sort($myArray);
+    $myArray = array("35","37","43","30","24","47","27");
+    sort($myArray);
     
-    	echo "Lower to Upper: ";
-    	$arrlength = count($myArray);
+    echo "Lower to Upper: ";
+    $arrlength = count($myArray);
     
-	//     for($x = 0; $x < $arrlength; $x++) {
-	//         echo "<pre>";
-	//         //echo "$myArray[$x], ";
-	//         //echo "<br>";
-	// 	}
-    	
-	echo "<pre>";
-    	print_r($myArray);
+    // for($x = 0; $x < $arrlength; $x++) {
+    //     echo "<pre>";
+    //     //echo "$myArray[$x], ";
+    //     //echo "<br>";
+	// }
+    echo "<pre>";
+	print_r($myArray);
 
 ?>
 
 <?php 
 
-    	$myArray = array("35","37","43","30","24","47","27");
-    	rsort($myArray);
+    $myArray = array("35","37","43","30","24","47","27");
+    rsort($myArray);
   	
-    	echo "Upper to Lower: ";
-    	$arrlength = count($myArray);
+    echo "Upper to Lower: ";
+    $arrlength = count($myArray);
     
-	//     for($x = 0; $x < $arrlength; $x++) {
-	//         echo "<pre>";
-	//         //echo "$myArray[$x], ";
-	//         //echo "<br>";
-	// 	}
-
-    	print_r($myArray);
+    // for($x = 0; $x < $arrlength; $x++) {
+    //     echo "<pre>";
+    //     //echo "$myArray[$x], ";
+    //     //echo "<br>";
+	// }
+    echo "<pre>";
+    print_r($myArray);
     
 ?>  
