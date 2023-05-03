@@ -21,6 +21,7 @@
 -->
 
 <?php
+
   $keys = ['id', 'firstname', 'lastname'];
   $values = [[3, 4, 5], [50, 60, 70], [15, 45, 85]];
 
@@ -35,4 +36,5 @@
 }
 echo "<pre>";
 print_r($result);
+
 ?>
