@@ -19,7 +19,7 @@
     //     //echo "<br>";
 	// }
     echo "<pre>";
-	print_r($myArray);
+    print_r($myArray);
 
 ?>
 
