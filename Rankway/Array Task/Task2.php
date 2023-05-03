@@ -17,7 +17,7 @@
     // foreach ($array as $value) {
     //     $arrayValues[] = $value;
     // }
-
+    echo "<pre>";
     print_r($arrayValues);
 
 ?>
