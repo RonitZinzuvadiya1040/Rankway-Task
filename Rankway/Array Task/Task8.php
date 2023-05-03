@@ -18,6 +18,7 @@
             $mergedArr[] = $item;
         }
     }
+    
     echo "<pre>";
     print_r($mergedArr);
     
@@ -40,7 +41,9 @@
             }
         }
     }
+    
     singleArray($arr, $mergedArr);
+    
     echo "<pre>";
     print_r($mergedArr);
 
