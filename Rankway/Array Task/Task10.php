@@ -34,6 +34,7 @@
     }
     $result[] = $temp_array;
 }
+
 echo "<pre>";
 print_r($result);
 
