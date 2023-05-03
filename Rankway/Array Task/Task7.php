@@ -21,7 +21,9 @@
             $positive_array[] = $value; // store 35 in $positive array
         }
     }
+
     echo "<pre>";
+
     echo "Array for string and nagetive value s: \n";
     print_r($string_negative_array); //print string and nagetive value
 
